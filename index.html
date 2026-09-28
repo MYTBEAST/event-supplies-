@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marquee &amp; Co. | Event supplies for hire</title>
+<meta name="description" content="Tents, tables, chairs, lighting, staging and sound for weddings, corporate and private events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <strong class="logo">Marquee &amp; Co.</strong>
+  <a class="btn small" href="#quote">Get a quote</a>
+</header>
+
+<section class="hero">
+  <h1>Everything your event stands on, under and around.</h1>
+  <p>Tents, tables, chairs, lights, stages and sound. Pick what you need, set your dates, and we send a firm quote with delivery and setup.</p>
+  <a class="btn" href="#catalog">Browse the catalog</a>
+</section>
+
+<section id="catalog">
+  <h2>Catalog</h2>
+  <div id="filters" class="filters"></div>
+  <div id="grid" class="grid"><p>Loading items...</p></div>
+</section>
+
+<section id="quote">
+  <h2>Your quote</h2>
+  <div id="cart" class="cart"><p class="muted">Nothing added yet. Tap Add on any item.</p></div>
+  <form id="qform" novalidate>
+    <label>Name<input name="name" required autocomplete="name"></label>
+    <label>Phone / WhatsApp<input name="phone" type="tel" required autocomplete="tel"></label>
+    <label>Email<input name="email" type="email" autocomplete="email"></label>
+    <label>Event type<select name="eventType"><option>Wedding</option><option>Corporate</option><option>Birthday</option><option>Festival</option><option>Other</option></select></label>
+    <div class="row">
+      <label>Start date<input name="eventDate" type="date" required></label>
+      <label>End date<input name="endDate" type="date"></label>
+    </div>
+    <label>Event location<input name="location" placeholder="Venue or address"></label>
+    <label>Notes<textarea name="notes" rows="3" placeholder="Guest count, access, setup time"></textarea></label>
+    <button class="btn" type="submit">Send quote request</button>
+    <p id="msg" role="status"></p>
+  </form>
+</section>
+
+<footer>
+  <p>Deposit of 30% confirms your booking. Damage and late-return fees apply. Delivery priced by zone.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

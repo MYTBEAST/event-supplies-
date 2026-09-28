@@ -1,0 +1,12 @@
+[
+ {"id":1,"name":"Frame Tent 6x12 m","category":"Tents","price":450,"unit":"day","note":"Seats about 60"},
+ {"id":2,"name":"Pole Tent 10x10 m","category":"Tents","price":600,"unit":"day","note":"Seats about 80"},
+ {"id":3,"name":"Round Table (8 seats)","category":"Tables & Chairs","price":12,"unit":"day","note":"1.5 m diameter"},
+ {"id":4,"name":"Banquet Table 2.4 m","category":"Tables & Chairs","price":10,"unit":"day","note":"Seats 8-10"},
+ {"id":5,"name":"Chiavari Chair","category":"Tables & Chairs","price":2.5,"unit":"day","note":"Gold or white"},
+ {"id":6,"name":"String Lights (20 m)","category":"Lighting","price":25,"unit":"day","note":"Warm white"},
+ {"id":7,"name":"Stage 4x3 m","category":"Staging","price":300,"unit":"day","note":"0.6 m high"},
+ {"id":8,"name":"PA Speaker Set + Mic","category":"Sound & AV","price":150,"unit":"day","note":"Up to 150 guests"},
+ {"id":9,"name":"Linen Tablecloth (round)","category":"Linens","price":6,"unit":"day","note":"Many colours"},
+ {"id":10,"name":"Generator 5 kVA","category":"Power","price":120,"unit":"day","note":"Fuel not included"}
+]
